@@ -1,8 +1,17 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { hopeTheme } from "vuepress-theme-hope";
+import { getDirname, path } from "vuepress/utils";
+import { defineClientConfig } from "vuepress/client";
+
+const __dirname = getDirname(import.meta.url);
+
+
 
 export default defineUserConfig({
+  alias: {
+    "@MyComponent": path.resolve(__dirname, "components/MyComponent.vue"),
+  },
   base: "/",
 
   lang: "zh-CN",
