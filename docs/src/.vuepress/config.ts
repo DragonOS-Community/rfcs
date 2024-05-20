@@ -20,5 +20,13 @@ export default defineUserConfig({
       "https://example/my/fonr-icon/resouce.css",
       "fontawesome",
     ],
+    //高亮
+    plugins: {
+      prismjs: {
+        light: "ateliersulphurpool-light",
+        dark: "atom-dark",
+      },
+    },
+
   }),
 });
