@@ -13,8 +13,12 @@ export default defineUserConfig({
 // shouldPrefetch: false,
  
   theme: hopeTheme({
-    darkmode: "switch",
+    darkmode: "switch",//深色模式
+     // 关键词: "iconify", "fontawesome", "fontawesome-with-brands"
+    iconAssets: [
+      "/base/my/font-icon/resource.js",
+      "https://example/my/fonr-icon/resouce.css",
+      "fontawesome",
+    ],
   }),
-//深色模式
-  
 });
