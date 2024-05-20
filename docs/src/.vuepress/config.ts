@@ -22,6 +22,16 @@ export default defineUserConfig({
     ],
     //高亮
     plugins: {
+      copyCode: {},//复制
+      searchPro: true,//搜索
+      watermark:true,//水印
+      comment: {
+        // 选择一个评论服务
+        provider: "Waline",
+
+        // 服务选项
+        serverURL: "...", // your serverURL
+      },//
       prismjs: {
         light: "ateliersulphurpool-light",
         dark: "atom-dark",
@@ -31,5 +41,50 @@ export default defineUserConfig({
     print: false,
     //全屏
     fullscreen: true,
+    //纯净模式
+    pure: true,
+    //导航栏
+    navbar: [
+      {
+        text: "指南",
+        link: "/zh/guide/README.md",
+        icon: "lightbulb",
+        // 仅在 `/zh/guide/` 激活
+        activeMatch: "^/zh/guide/$",
+      },
+      { text: "配置", link: "/zh/config/README.md", icon: "config" },
+      {
+        text: "常见问题",
+        link: "/zh/faq.md",
+        icon: "circle-question",
+        // 会在 `/zh/faq` 开头的路径激活
+        // 所以当你前往 `/zh/faq/xxx.html` 时也会激活
+        activeMatch: "^/zh/faq",
+      },
+    ],
+    //侧边栏
+    sidebar: [
+      {
+        text: "指南",
+        link: "/zh/guide/README.md",
+        icon: "lightbulb",
+        // 仅在 `/zh/guide/` 激活
+        activeMatch: "^/zh/guide/$",
+      },
+      { text: "配置", link: "/zh/config/README.md", icon: "config" },
+      {
+        text: "常见问题",
+        link: "/zh/faq.md",
+        icon: "circle-question",
+        // 会在 `/zh/faq` 开头的路径激活
+        // 所以当你前往 `/zh/faq/xxx.html` 时也会激活
+        activeMatch: "^/zh/faq",
+      },
+    ],
+//页脚
+      footer: "",
+    
+
+
   }),
 });
