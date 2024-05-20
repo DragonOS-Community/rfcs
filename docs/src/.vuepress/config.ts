@@ -27,6 +27,9 @@ export default defineUserConfig({
         dark: "atom-dark",
       },
     },
-
+    //隐藏打印
+    print: false,
+    //全屏
+    fullscreen: true,
   }),
 });
