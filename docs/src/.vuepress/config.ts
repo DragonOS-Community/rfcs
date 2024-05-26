@@ -22,6 +22,7 @@ export default defineUserConfig({
 // shouldPrefetch: false,
  
   theme: hopeTheme({
+    
     darkmode: "switch",//深色模式
      // 关键词: "iconify", "fontawesome", "fontawesome-with-brands"
     iconAssets: [
@@ -74,6 +75,7 @@ export default defineUserConfig({
     //侧边栏
     sidebar: [
       {
+        
         text: "指南",
         link: "/zh/guide/README.md",
         icon: "lightbulb",
@@ -92,8 +94,8 @@ export default defineUserConfig({
     ],
 //页脚
       footer: "",
-    
-
-
+      
+     
   }),
 });
+
