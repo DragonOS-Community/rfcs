@@ -13,7 +13,6 @@ export default defineUserConfig({
     "@MyComponent": path.resolve(__dirname, "components/MyComponent.vue"),
   },
   base: "/",
-
   lang: "zh-CN",
   title: "博客演示！！！",
   description: "vuepress-theme-hope 的博客演示",
