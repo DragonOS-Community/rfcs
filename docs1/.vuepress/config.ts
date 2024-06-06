@@ -4,13 +4,13 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "博客演示",
+  title: "The DragonOS RFC Book",
   description: "vuepress-theme-hope 的博客演示",
  
   theme: hopeTheme({
     
     darkmode: "switch",//深色模式
-     // 关键词: "iconify", "fontawesome", "fontawesome-with-brands"
+     /* 关键词: "iconify", "fontawesome", "fontawesome-with-brands"*/
     iconAssets: [
       "/base/my/font-icon/resource.js",
       "https://example/my/fonr-icon/resouce.css",
