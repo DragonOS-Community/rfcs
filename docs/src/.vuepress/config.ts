@@ -32,7 +32,7 @@ export default defineUserConfig({
     plugins: {
       copyCode: {},//复制
       searchPro: true,//搜索
-      watermark:true,//水印
+      watermark:false,//水印
       comment: {
         // 选择一个评论服务
         provider: "Waline",
@@ -98,4 +98,3 @@ export default defineUserConfig({
    
   }),
 });
-
