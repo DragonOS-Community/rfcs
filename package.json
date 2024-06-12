@@ -1,15 +1,16 @@
 {
-  "name": "vuepress-theme-hope-template",
-  "version": "2.0.0",
-  "description": "A project of vuepress-theme-hope",
-  "license": "MIT",
-  "type": "module",
+  "name": "rfcs",
+  "version": "1.0.0",
+  "description": "RFCs for changes to DragonOS",
+  "main": "index.js",
   "scripts": {
     "docs:build": "vuepress-vite build docs1",
     "docs:clean-dev": "vuepress-vite dev docs1 --clean-cache",
     "docs:dev": "vuepress-vite dev docs1",
     "docs:update-package": "npx vp-update"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
     "vite": "^5.2.12",
@@ -19,3 +20,7 @@
     "vuepress-theme-hope": "2.0.0-rc.43"
   }
 }
+
+  
+  
+ 
