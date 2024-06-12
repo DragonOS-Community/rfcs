@@ -1,4 +1,4 @@
-import comp from "/home/baiye/rfcs-8/docs1/.vuepress/.temp/pages/index.html.vue"
+import comp from "/home/baiye/rfcs-9/docs1/.vuepress/.temp/pages/index.html.vue"
 const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"\",\"article\":false,\"feed\":false,\"sitemap\":false},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null}")
 export { comp, data }
 
